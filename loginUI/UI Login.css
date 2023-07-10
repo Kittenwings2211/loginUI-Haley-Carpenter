@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background: url(https://media.tenor.com/images/b97b3ab627558cc7231c08a0ea956381/tenor.png);
     background-size: cover;
     background-position: center;
