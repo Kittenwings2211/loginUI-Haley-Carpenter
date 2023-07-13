@@ -1,0 +1,22 @@
+body{
+    background-color: deepskyblue;
+
+}
+
+.container{
+    border-style: solid;
+    border-color: black;
+}
+.col-sm-3{
+    border-style: solid;
+    border-color: black;
+}
+
+.list-group{
+    display: flex;
+    background-color: deepskyblue;
+}
+
+.card{
+    margin: 5px;
+}

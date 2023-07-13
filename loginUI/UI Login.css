@@ -2,9 +2,8 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    background: url(https://media.tenor.com/images/b97b3ab627558cc7231c08a0ea956381/tenor.png);
+    background: url(https://cutewallpaper.org/21/anime-pool-background/Pin-by-Sword-art-online-on-free-Anime-scenery-Free-anime-.jpg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -25,14 +24,18 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.card-title{
+    color:aliceblue;
+    text-decoration-color: black;
+    text-decoration: solid;
+}
 .card{
     border-style: solid;
     border-width: 4px;
     border-radius: 75px 75px 75px 75px;
     box-shadow: 10px 15px 51px 10px rgba(0,0,0,0.75);
     border-color: #29b8e5;
-    background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+    background: url(https://pa1.aminoapps.com/6698/0e626426065db18903a3b5f7205d3a6053bd85d0_hq.gif);
     width: 30vw;
     height: 40vh;
     min-width: 30%;
@@ -106,4 +109,8 @@ button:hover{
     margin-left: 40%;
     margin-top: 5px;
     margin-bottom: 5px;
-}*/
+}
+
+container background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+
+*/
