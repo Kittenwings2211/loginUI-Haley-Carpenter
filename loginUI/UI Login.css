@@ -11,6 +11,11 @@ body{
     background-color:#29b8e5;
 }
 
+.btn{
+    display: flex;
+    align-content: center;
+}
+
 .welcome{
     color:black;
     display: flex;
@@ -20,12 +25,14 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
+    min-width: 50vw;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card-title{
-    color:aliceblue;
+    color:rgb(205, 232, 255);
     text-decoration-color: black;
     text-decoration: solid;
 }
@@ -36,10 +43,12 @@ body{
     box-shadow: 10px 15px 51px 10px rgba(0,0,0,0.75);
     border-color: #29b8e5;
     background: url(https://pa1.aminoapps.com/6698/0e626426065db18903a3b5f7205d3a6053bd85d0_hq.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 30vw;
     height: 40vh;
     min-width: 30%;
-    min-height: 20%;
+    min-height: 30%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,6 +56,68 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.signUpContainer{
+    margin: none;
+    padding: none;
+    width: 100vw;
+    height: 100vh;
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpCard{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 75px 75px 75px 75px;
+    box-shadow: 10px 15px 51px 10px rgba(0,0,0,0.75);
+    border-color: #29b8e5;
+    background: url(https://pa1.aminoapps.com/6698/0e626426065db18903a3b5f7205d3a6053bd85d0_hq.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50vw;
+    height: 60vh;
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.usernameContainer{
+    width: 100vw;
+    height: 100vh;
+    min-width: 50vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usernameCard{
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 75px 75px 75px 75px;
+    box-shadow: 10px 15px 51px 10px rgba(0,0,0,0.75);
+    border-color: #29b8e5;
+    background: url(https://pa1.aminoapps.com/6698/0e626426065db18903a3b5f7205d3a6053bd85d0_hq.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 40vh;
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 input{
     border-style: solid;
     border-width: 4px;

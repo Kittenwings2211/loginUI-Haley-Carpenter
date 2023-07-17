@@ -6,6 +6,8 @@ body{
 .container{
     border-style: solid;
     border-color: black;
+    height: 100%;
+    width: 100%;
 }
 .col-sm-3{
     border-style: solid;
